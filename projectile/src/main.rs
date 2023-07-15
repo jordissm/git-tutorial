@@ -40,7 +40,7 @@ fn main() {
 
     let mut fg = Figure::new();
     fg.axes2d()
-        //.set_title("Particle Position", &[])
+        .set_title("Particle Position", &[])
         .set_x_label("x (m)", &[])
         .set_y_label("y (m)", &[])
         .set_x_range(Fix(-0.0), Fix(20.0))
